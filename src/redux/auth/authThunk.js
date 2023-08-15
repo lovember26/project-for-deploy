@@ -8,8 +8,7 @@ import {
 import { selectAccessToken } from "./authSelectors";
 import { successNotification, errorNotification } from "helpers/notification";
 
-axios.defaults.baseURL =
-  "http://buzz-talk-api.eu-west-3.elasticbeanstalk.com/api/accounts";
+axios.defaults.baseURL = "https://buzz-talk-api.onrender.com/api/accounts";
 
 const token = {
   set(token) {
