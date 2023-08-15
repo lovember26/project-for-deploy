@@ -59,7 +59,7 @@ export const RegisterPage = () => {
 
   return (
     <>
-      <RegisterPageTitle>Sign up</RegisterPageTitle>
+      <RegisterPageTitle>Hello</RegisterPageTitle>
       <RegisterPageWrapper>
         <RegisterPageForm onSubmit={handleSubmit(onSubmit)}>
           <BasicInput
